@@ -1,0 +1,55 @@
+.center {
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 16px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: #3f89ff;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    font-size: 22px;
+    color: grey;
+}
+
+
+.p-30{
+    padding: 30px;
+}
+
+.br-30 {
+    border-radius: 30%;
+    color: #3f89ff;
+    border: 8px solid #3f89ff;
+}
+
+.wh-200 {
+    width: 200px;
+    height: 200px;
+}
+
+.tm-social{
+    width: 40px;
+    height: 40px;
+}
+
+.wb-50 {
+    margin-bottom: 50px;
+}
+
+.justify{
+    text-align: justify;
+}
