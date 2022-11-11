@@ -1,6 +1,9 @@
 .center {
     text-align: center;
 }
+.bc{
+    background-color: #3f89ff;
+}
 
 .container{
     display: flex;
@@ -11,18 +14,18 @@
 
 #menu li{
     display: inline;
-    padding: 16px;
+    padding: 16px 50px;
 }
 
 #menu li a{
     text-decoration: none;
-    color: #3f89ff;
+    color: white;
     font-size: 20px;
 }
 
 #menu li a:hover{
     font-size: 22px;
-    color: grey;
+    color: white;
 }
 
 

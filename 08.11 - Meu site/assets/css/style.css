@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+.justify{
+    text-align: justify;
+}
+
 .container{
     display: flex;
     flex-flow: row;
@@ -11,7 +15,11 @@
 
 #menu li{
     display: inline;
-    padding: 16px;
+    padding: 30px;
+}
+
+.bc{
+    background-color: orange;
 }
 
 #menu li a{
@@ -22,11 +30,11 @@
 
 #menu li a:hover{
     font-size: 22px;
-    color: orange;
+    color: white;
 }
 
-.p-30{
-    padding: 30px;
+.p-10{
+    padding: 10px;
 }
 
 .br-50 {
