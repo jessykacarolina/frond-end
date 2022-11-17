@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,49 +19,74 @@
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    </div>
 
-    <div class="container">
-        <div class="center">
-        <h2>Entre em contato comigo</h2>
+    <h2 class="center">Entre em contato comigo</h2>
 
-        <form>
-            <label>Nome: </label>
-            <br>
-            <input placeholder="Digite seu Nome">
-            <br>
-            <label>Email: </label>
-            <br>
-            <input placeholder="Digite seu Email">
-            <br>
-            <label>Assunto: </label>
-            <br>
-            <input placeholder="Digite o Assunto">
-            <br>
-            <label>Mensagem: </label>
-            <br>
-            <textarea></textarea>
-            <br>
-            <button>Enviar</button>
-        </form>
+    <div class="container mb-50">
+
+        <div>
+
+            <form>
+                <label for="nome">Nome: </label>
+                <br>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome">
+
+                </div>
+                <br>
+                <label for="email">Email: </label>
+                <br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail">
+
+                </div>
+                <br>
+                <label for="assunto">Assunto: </label>
+                <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="3" onkeyup="validaAssunto()"></textarea>
+                <div id="txtAssunto">
+
+                </div>
+                <br>
+                <label for="Mensagem">Mensagem: </label>
+                <br>
+                <textarea name="mensagem" id="mensagem" cols="60" rows="5" onkeyup="validaMensagem()"></textarea>
+                <div id="txtMensagem">
+                </div>
+                <br>
+                <br>
+                <button onclick="enviar()">Enviar</button>
+            </form>
         </div>
         <div>
-        <img class="br-50 wh-400"  src="http://media.tumblr.com/71bb156842af5ac635b7973b911d9692/tumblr_inline_mmg4b8JK391qz4rgp.gif" alt="Gato de Botas">
-    </div>
+            <img class="br-50 wh-400"
+                src="http://media.tumblr.com/71bb156842af5ac635b7973b911d9692/tumblr_inline_mmg4b8JK391qz4rgp.gif"
+                alt="Gato de Botas">
+        </div>
     </div>
 
     <div class="center wb-50">
-        <h4>Endereço de minha empresa:</h4>
 
-        <p> Rua dos Manaciais 198 - Pinheiros - SP</p>
+        <p>Avenida paulista - consolação - SP</p>
 
-    <footer>
-            <a href=""><img class="tm-social" src="assets/css/img/facebook.png" alt="Logo do Facebook"></a>
-            <a href=""></a><img class="tm-social" src="assets/css/img/instagram.png" alt="Logo do Instagram"></a>
-            <a href=""></a><img class="tm-social" src="assets/css/img/linkedin.png" alt="Logo do Linkedin"></a>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1973547855564!2d-46.6609789763875!3d-23.561354435690884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1668033941695!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()" onmouseout="mapaNormal()"
+            id="mapa"></iframe>
+    </div>
+    </div>
+
+    <footer class="center">
+        <div>
+            <a href=""><img class="tm-social" src="assets/img/facebook.png" alt="Logo do Facebook"></a>
+            <a href=""></a><img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram"></a>
+            <a href=""></a><img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin"></a>
+        </div>
         <p>Todos os direitos são reservados: Jay Karol &copy;</p>
     </footer>
-    </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

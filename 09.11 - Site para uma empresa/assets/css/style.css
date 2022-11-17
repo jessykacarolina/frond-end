@@ -1,9 +1,6 @@
 .center {
     text-align: center;
 }
-.bc{
-    background-color: #3f89ff;
-}
 
 .container{
     display: flex;
@@ -55,4 +52,8 @@
 
 .justify{
     text-align: justify;
+}
+
+.bc{
+    background-color: #3f89ff;
 }

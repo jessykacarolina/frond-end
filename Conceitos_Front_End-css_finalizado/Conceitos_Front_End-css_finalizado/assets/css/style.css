@@ -1,4 +1,4 @@
-.center {
+.center{
     text-align: center;
 }
 
@@ -9,9 +9,10 @@
     align-items: center;
 }
 
+
 #menu li{
     display: inline;
-    padding: 30px;
+    padding: 16px;
 }
 
 #menu li a{
@@ -21,24 +22,21 @@
 }
 
 #menu li a:hover{
-    font-size: 22px;
-    color: white;
+    font-size: 80px;
+    color: grey;
 }
 
-.p-10{
-    padding: 10px;
+.p-30{
+    padding: 30px;
 }
 
 .br-50 {
     border-radius: 50%;
-    color: orange;
-    border: 10px solid orange;
-
 }
 
-.wh-400 {
-    width: 400px;
-    height: 400px;
+.wh-700 {
+    width: 700px;
+    height: 700px;
 }
 
 .tm-social{
@@ -46,7 +44,7 @@
     height: 40px;
 }
 
-.wb-50 {
+.mb-50 {
     margin-bottom: 50px;
 }
 
@@ -54,10 +52,9 @@
     text-align: justify;
 }
 
+/* Contato */
+
 .ml-50 {
     margin-left: 50px;
 }
 
-.bc{
-    background-color: orange;
-}
